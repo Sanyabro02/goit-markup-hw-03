@@ -189,15 +189,18 @@ body {
 }
 .team-list{
   display: flex;
-  justify-content: space-between;
   gap: 24px;
 }
 .team-list .list-item{
-  width: 264px;
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
   background-color: #FFFFFF;
 }
 .team-list .list-img{
   margin-bottom: 32px;
+}
+.list-item-inner{
+  padding: 32px 0;
 }
 .team-list .title{
   font-weight: 500;

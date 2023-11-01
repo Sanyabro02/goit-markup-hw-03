@@ -3,6 +3,8 @@ ul,
 ol {
   list-style-type: none;
   padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 h1, h2, h3, h4, h5, h6{
   margin: 0 auto;
@@ -224,7 +226,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 32px;
+  
 }
 /* portfolio */
 .portfolio{
@@ -259,7 +261,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
+  
 }
 /* footer */
 .footer{
@@ -286,5 +288,5 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-bottom: 50px;
+  
 }
